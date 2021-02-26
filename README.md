@@ -42,12 +42,15 @@ RESULT $6510.88
 ```
 
 # Submit your own
-Make a new file under `strategies/`. Import the main file via `require_relative '../btd.rb'`.
-Implement a class inheriting from `Strategy`, implement the `#execute` method (see other 
-strategies for signature). Call `Investor#run` at the end of your file. To test, run with
-`ruby strategies/<your_file_name>`.
+* Make a new file under `strategies/`. 
+* Import the main file via `require_relative '../btd.rb'`
+* Implement a class inheriting from `Strategy`
+* Implement the `#execute` method (see other strategies for signature)
+* (optional) Implement the `#description` method
+* Call `Investor#run` at the end of your file
+* To test, run with `ruby strategies/<your_file_name>`
 
-See the examples in `strategies/`. 
+See the examples in `strategies/`
 
 # tl;dr
 
