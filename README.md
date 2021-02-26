@@ -16,6 +16,11 @@ ruby strategies/<file>
 ruby strategies/hodl_and_buy_more.rb
 ```
 
+### Debug output
+Run with `--debug` to see individual movements (sale, purchase, budget addition).
+
+Example: `ruby strategies/buy_dip_sell_high.rb --debug`
+
 # Output
 ```
 There's a new investor in town! They start with $0 and ฿0, adding $100 to their budget every 1st of the month.
