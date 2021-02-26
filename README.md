@@ -1,3 +1,7 @@
+# tl;dr
+
+HODL
+
 # Run script
 
 ### All strategies
@@ -52,6 +56,3 @@ RESULT $6510.88
 
 See the examples in `strategies/`
 
-# tl;dr
-
-HODL
